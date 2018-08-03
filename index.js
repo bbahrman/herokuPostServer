@@ -10,6 +10,6 @@ app
 
 
 function onPost(req, res) {
-  console.log(req.body);
+  console.log('Billable hours were ' + req.body['Billable']);
   res.send('success');
 }
